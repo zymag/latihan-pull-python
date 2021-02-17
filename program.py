@@ -1,16 +1,16 @@
 class BioData:
-  def __init__(self, nama, kelas):
+  def __init__(self, nama, kelas, umur, agama):
     self.nama = nama
     self.kelas = kelas
     self.umur = umur
     self.agama = agama
    
    def printNama(self):
-    print("Nama anda: {self.nama}")
+    print(f"Nama anda: {self.nama}")
     
-   def printKelas():
-    print("Kelas anda: {kelas}")
+   def printKelas(self):
+    print(f"Kelas anda: {self.kelas}")
    
 Ahmad = BioData("Ahmad Borat", "12 IPA 1", "18 Tahun", "Islam")
 Ahmad.printNama()
-Ahmad.printKelas
+Ahmad.printKelas() 
